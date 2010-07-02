@@ -1,9 +1,11 @@
-$LOAD_PATH.unshift(File.dirname(__FILE__))
-$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
+
 require 'cafepress_localization'
+require 'spec/rails'
 require 'spec'
 require 'spec/autorun'
-
+require 'action_view'
+require 'active_support'
+ 
 Spec::Runner.configure do |config|
   
 end
